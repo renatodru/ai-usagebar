@@ -11,6 +11,10 @@ credential was used.
 - `layout-default.png` is the popover built from `upstream/main` (`07fdf1e`).
 - `layout-compact-summary.png` is the same report in a local build that has
   the compact visual. That build is not a pull request branch.
+- `layout-selector.png` is the compact frame with the footer and the Layout
+  menu open. It comes from the same local build with its menu cut to the two
+  entries the issue proposes and named as in the issue; that build's own menu
+  lists six local layouts.
 - The report is a fixture: two accounts of one provider and one account of
   another. One account has one banked rate-limit reset and extra usage
   switched on, which is its third quota and so starts in the On Demand part
@@ -24,5 +28,5 @@ credential was used.
   Chromium on Linux from the built `popover.js` / `popover.css`, with Ubuntu
   Sans standing in for Segoe UI. These are **not** native Windows or macOS
   captures.
-- Both are cropped to the card area. The footer is left out because the local
+- The first two are cropped to the card area. The footer is left out because the local
   build's footer has controls that are not part of the proposal.
