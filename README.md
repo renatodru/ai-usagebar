@@ -1,8 +1,8 @@
 # Layout selector: mockup frames
 
 Two frames for the issue that asks about a Layout selector in the tray
-popover. Everything here is synthetic: no real account, usage figure or
-credential was used.
+popover. The first three frames are synthetic. The many-accounts pair shows real
+usage figures under changed account names. No credential was used.
 
 | Default | Compact summary |
 |---|---|
@@ -15,7 +15,12 @@ credential was used.
   menu open. It comes from the same local build with its menu cut to the two
   entries the issue proposes and named as in the issue; that build's own menu
   lists six local layouts.
-- The report is a fixture: two accounts of one provider and one account of
+- `layout-default-many.png` and `layout-compact-many.png` are the same two
+  builds drawing eleven accounts over four providers. Their report is a real
+  `usage --json` report with the account names changed and the user-written
+  labels of its `[[custom]]` sources put in English. Both use the row choices
+  (Customize) saved in the popover that report came from.
+- The report of the other frames is a fixture: two accounts of one provider and one account of
   another. One account has one banked rate-limit reset and extra usage
   switched on, which is its third quota and so starts in the On Demand part
   of its card; one provider has an open status-page incident.
@@ -28,5 +33,5 @@ credential was used.
   Chromium on Linux from the built `popover.js` / `popover.css`, with Ubuntu
   Sans standing in for Segoe UI. These are **not** native Windows or macOS
   captures.
-- The first two are cropped to the card area. The footer is left out because the local
+- All but the selector frame are cropped to the card area. The footer is left out because the local
   build's footer has controls that are not part of the proposal.
